@@ -11,6 +11,7 @@ function App() {
     <>
     <Routes>
       <Route path='/' element={<Home/>}/>
+      <Route path='/recipies' element={<Home/>}/>
       <Route path=':country' element={<Country/>}/>
       <Route path=':country/:mealId' element={<Meal/>}/>
       <Route path='*' element={<Unknown/>}/>
